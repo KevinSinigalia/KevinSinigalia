@@ -10,6 +10,8 @@ subnetworkLinksPCMCI.py <---> subnetworkLinks.ipynb
 
 PCMCI+_f1Scorey.py <---> gridSearch_PCMCIplus_example.ipynb
 
-PCMCI_selectComponents.ipynb (or getF1scores_selectComponents.py) <---> subnetworkComponents.ipynb (or getOptimalCompsComb.ipynb)
+getF1scores_selectComponents.py <---> subnetworkComponents.ipynb (or getOptimalCompsComb.ipynb)
 
-PCMCI_loop_numberComponents_pcAlpha.py <---> gridSearch.ipynb
+PCMCI_getF1Scores.py, PCMCI_further_metrics.py <---> gridSearch.ipynb
+
+PCMCI_loop_numberComponents_pcAlpha.py just creates results
